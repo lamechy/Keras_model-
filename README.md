@@ -69,3 +69,6 @@ Here is the confusion matrix result
 
 #### Reading the confusion matrix
 Looking at the plot of the confusion matrix, we have the predicted labels on the x-axis and the true labels on the y-axis. The blue cells running from the top left to bottom right contain the number of samples that the model accurately predicted. The white cells contain the number of samples that were incorrectly predicted.
+
+There are 420 total samples in the test set. Looking at the confusion matrix, we can see that the model accurately predicted 396 out of 420 total samples. The model incorrectly predicted 24 out of the 420.
+
