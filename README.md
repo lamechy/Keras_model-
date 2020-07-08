@@ -41,3 +41,7 @@ We created a list containing 2100 total items and their corresponding labels (ei
 We converted the list to  a numpy array which we then scaled to a scale of 0 to 1 using scikit-learn's MinMaxScaler class.
 
 
+For this model, I created three sets of data
+- **Traing Data** ---> To be used for training the model.
+- **Validation Data** ---> For validation purpose.
+- **Test Data** --->  It will be used without labels to test the accuracy of the already trained model in predicting results  
