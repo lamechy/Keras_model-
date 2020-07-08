@@ -72,3 +72,5 @@ Looking at the plot of the confusion matrix, we have the predicted labels on the
 
 There are 420 total samples in the test set. Looking at the confusion matrix, we can see that the model accurately predicted 396 out of 420 total samples. The model incorrectly predicted 24 out of the 420.
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
