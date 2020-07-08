@@ -26,3 +26,5 @@ Serving the Jupyter notebook from the terminal is quite easy if you have it inst
 - `jupyter-notebook`
  
 
+**Note: *If at all you did follow this guide, we just created an environment with Tensorflow for CPU already installed in it. Keras package which we will be using for developing our model, is fully integrated with the Tensorflow package***
+
