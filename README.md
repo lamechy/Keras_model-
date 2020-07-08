@@ -28,3 +28,16 @@ Serving the Jupyter notebook from the terminal is quite easy if you have it inst
 
 **Note: *If at all you did follow this guide, we just created an environment with Tensorflow for CPU already installed in it. Keras package which we will be using for developing our model, is fully integrated with the Tensorflow package***
 
+## Data Creation 
+**Creating our own example data set.**
+As a motivation for this data, let's assume that an experimental drug was tested on  individuals ranging from age 13 to 100 in a clinical trial. The trial had 2100 participants. Half of the participants were under 65 years old, and the other half was 65 of age or older.
+
+Below is a snippet for the data created. 
+![images.jpeg](images/model_data.jpeg)
+
+### Data processing
+We created a list containing 2100 total items and their corresponding labels (either 0 or 1 to represent those who didn't experience side effects  and those who did experience respectively). This is supervised model. It will use its knowledge gained from training and using it to infer a prediction or result.
+
+We converted the list to  a numpy array which we then scaled to a scale of 0 to 1 using scikit-learn's MinMaxScaler class.
+
+
