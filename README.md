@@ -60,4 +60,12 @@ Here is a snippet of what the model code looks like
 After creation of the model we train it on the data that we generated earlier (Both the validation and training data)
 In our case we used an Epoch size of 30 during training. You can increase the epoch size of your model for better  accuracy.
 
-After training, the model was tested on a separate **Test data** which was passed without label so the model would predict on the data 
+After training, the model was tested on a separate **Test data** which was passed without labels so the model would predict on the data and let us Know if one experienced side effects or not.
+
+## Confusion matrix 
+We created a confusion matrix which aided us in being able to visually observe how well was the  neural network model predicting during inference. 
+Here is the confusion matrix result
+![images.jpeg](images/confusion_matrix.jpeg)
+
+#### Reading the confusion matrix
+Looking at the plot of the confusion matrix, we have the predicted labels on the x-axis and the true labels on the y-axis. The blue cells running from the top left to bottom right contain the number of samples that the model accurately predicted. The white cells contain the number of samples that were incorrectly predicted.
