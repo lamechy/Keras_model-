@@ -45,3 +45,19 @@ For this model, I created three sets of data
 - **Traing Data** ---> To be used for training the model.
 - **Validation Data** ---> For validation purpose.
 - **Test Data** --->  It will be used without labels to test the accuracy of the already trained model in predicting results  
+Check out the notebook file containing this code in this repo  named **ModelTrain_Data.ipynb** 
+
+## Building our sequential model 
+**Goal of this model** ---> Ultimately our model should tell us whether or not a patient will experience side effects solely based on the patient's age.
+
+
+Check out the notebook file containing the code for this  model in this repo named **Neural_Network_Model.ipynb**
+We  first instantiate  the Sequential object which is a linear stack of layers. We then  passed in a list of layers to the Sequential constructor. In this case, all the layers were dense layers.
+
+Here is a snippet of what the model code looks like 
+![images.jpeg](images/built_model.jpeg)
+
+After creation of the model we train it on the data that we generated earlier (Both the validation and training data)
+In our case we used an Epoch size of 30 during training. You can increase the epoch size of your model for better  accuracy.
+
+After training, the model was tested on a separate **Test data** which was passed without label so the model would predict on the data 
